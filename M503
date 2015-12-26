@@ -6,21 +6,21 @@ M92 X200.00000 Y200.00000 Z200.00000
 ;Acceleration mm/sec^2:
 M204 S3000.00000 Z0.00000
 ;X- Junction Deviation, Z- Z junction deviation, S - Minimum Planner speed mm/sec:
-M205 X0.05000 Z-1.00000 S0.00000
+M205 X0.01500 Z-1.00000 S0.00000
 ;Max feedrates in mm/sec, XYZ cartesian, ABC actuator:
 M203 X166.66667 Y166.66667 Z166.66667 A500.00000 B500.00000 C500.00000
 ;Optional arm solution specific settings:
-M665 L473.0000 R258.7500
+M665 L477.8375 R258.7500
 ;Digipot Motor currents:
 M907 X1.20000 Y1.20000 Z1.20000 E0.46000
 ;Home offset (mm):
-M206 X0.00 Y0.00 Z-4.70
+M206 X0.00 Y0.00 Z0.30
 ;Trim (mm):
-M666 X-14.200 Y-11.300 Z-15.000
+M666 X-14.650 Y-10.650 Z-14.700
 ;Max Z
-M665 Z882.120
+M665 Z859.582
 ;E Steps per mm:
-M92 E5370.4771 P57988
+M92 E5012.1108 P57988
 ;E Filament diameter:
 M200 D0.0000 P57988
 ;E retract length, feedrate:
