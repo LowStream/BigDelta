@@ -19,7 +19,7 @@ gamma_steps_per_mm                           200              # Steps per mm for
 
 #arm_length                                   473.0            # this is the length of an arm from hinge to hinge
 arm_length                                   477.8375		# this is the length of an arm from hinge to hinge
-arm_radius                                   259.7            # this is the horizontal distance from hinge to hinge
+arm_radius                                   258.75            # this is the horizontal distance from hinge to hinge
                                                               # when the effector is centered
 
 # Planner module configuration : Look-ahead and acceleration configuration
@@ -218,14 +218,14 @@ beta_max                                     0                #
 gamma_min_endstop                            nc               #
 gamma_max_endstop                            1.29^            #
 gamma_homing_direction                       home_to_max      #
-gamma_max                                    882.12              #
+gamma_max                                    859.582              #
 
 alpha_fast_homing_rate_mm_s                  50              # homing feedrates in mm/second
 beta_fast_homing_rate_mm_s                   50              #
 gamma_fast_homing_rate_mm_s                  50              #
-alpha_slow_homing_rate_mm_s                  20               #
-beta_slow_homing_rate_mm_s                   20               #
-gamma_slow_homing_rate_mm_s                  20
+alpha_slow_homing_rate_mm_s                  5               #
+beta_slow_homing_rate_mm_s                   5               #
+gamma_slow_homing_rate_mm_s                  5
 
 alpha_homing_retract_mm                      5                # retract/bounce distance after homing in mm
 beta_homing_retract_mm                       5                #
